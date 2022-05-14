@@ -1,0 +1,6 @@
+<launch>
+	<node name="control_box" pkg="control_box" type="control_box_node.py" output="screen">
+		<rosparam command="load" file="$(find control_box)/config/config.yaml" />
+	</node>
+</launch>
+

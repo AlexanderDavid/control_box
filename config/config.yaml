@@ -1,0 +1,16 @@
+estop:
+    name: "estop"
+    type: "button"
+    pin: 26
+    normally_open: false
+
+switch:
+    name: "switch"
+    type: "button"
+    pin: 19
+    normally_open: true
+
+cmd_vel_mux:
+    name: "cmd_vel_mux"
+    type: "rotary_switch"
+    pins: [21, 20, 16, 25, 24, 18]
