@@ -5,8 +5,8 @@ from typing import List, Union
 
 import rospy
 from RPi import GPIO
-from control_box.msg import Button as ButtonMsg
-from control_box.msg import RotarySwitch as RotarySwitchMsg
+from control_box_msgs.msg import Button as ButtonMsg
+from control_box_msgs.msg import RotarySwitch as RotarySwitchMsg
 
 
 class RotarySwitch:

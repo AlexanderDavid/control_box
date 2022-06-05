@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(control_box)
+project(control_box_msgs)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -8,11 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
   message_runtime
-  roslaunch
 )
-
-# Check that the roslaunch files are valid
-roslaunch_add_file_check(launch)
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -21,7 +17,7 @@ roslaunch_add_file_check(launch)
 ## Generate messages in the 'msg' folder
 add_message_files(
 	FILES
-	Button.msg
+    Button.msg
 	RotarySwitch.msg
 )
 

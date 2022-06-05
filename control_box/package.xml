@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>control_box</name>
+  <version>0.0.1</version>
+  <description>Nodes to publish information from a simple box with switches and buttons for controlling robots</description>
+
+  <maintainer email="adday@clemson.edu">Alex Day</maintainer>
+
+  <license>GPLv2</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>control_box_msgs</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
